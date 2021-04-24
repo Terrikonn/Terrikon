@@ -1,0 +1,12 @@
+[submodule "hak"]
+	path = hak
+	url = git@github.com:rrromlin/hak.git
+[submodule "ports"]
+	path = ports
+	url = git@github.com:rrromlin/ports.git
+[submodule "drivers"]
+	path = drivers
+	url = git@github.com:rrromlin/drivers.git
+[submodule "kvazeeroll"]
+	path = kvazeeroll
+	url = git@github.com:rrromlin/kvazeeroll.git
