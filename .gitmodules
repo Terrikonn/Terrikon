@@ -1,12 +1,16 @@
 [submodule "hak"]
 	path = hak
-	url = git@github.com:rrromlin/hak.git
+	url = git@github.com:Terrikonn/hak.git
+	branch = master
 [submodule "ports"]
 	path = ports
-	url = git@github.com:rrromlin/ports.git
+	url = git@github.com:Terrikonn/ports.git
+	branch = master
 [submodule "drivers"]
 	path = drivers
-	url = git@github.com:rrromlin/drivers.git
+	url = git@github.com:Terrikonn/drivers.git
+	branch = master
 [submodule "rush"]
 	path = rush
-	url = git@github.com:rrromlin/rush.git
+	url = git@github.com:Terrikonn/rush.git
+	branch = master
