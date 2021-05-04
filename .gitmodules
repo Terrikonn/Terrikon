@@ -7,6 +7,6 @@
 [submodule "drivers"]
 	path = drivers
 	url = git@github.com:rrromlin/drivers.git
-[submodule "kvazeeroll"]
-	path = kvazeeroll
-	url = git@github.com:rrromlin/kvazeeroll.git
+[submodule "rush"]
+	path = rush
+	url = git@github.com:rrromlin/rush.git
