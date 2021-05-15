@@ -14,3 +14,6 @@
 	path = rush
 	url = git@github.com:Terrikonn/rush.git
 	branch = master
+[submodule "arch"]
+	path = arch
+	url = git@github.com:Terrikonn/arch.git
