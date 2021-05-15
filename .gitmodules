@@ -17,3 +17,6 @@
 [submodule "arch"]
 	path = arch
 	url = git@github.com:Terrikonn/arch.git
+[submodule "bootloader"]
+	path = bootloader
+	url = git@github.com:Terrikonn/bootloader.git
