@@ -20,6 +20,7 @@ normalize_comments = true
 normalize_doc_attributes = true
 overflow_delimited_expr = true
 remove_nested_parens = true
+use_small_heuristics = "Off"
 use_field_init_shorthand = true
 use_try_shorthand = true
 version = "Two"
