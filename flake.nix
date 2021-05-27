@@ -21,6 +21,8 @@
             sccache
             qemu
             qemu-utils
+            grub2_full
+            xorriso
             (rust-bin.nightly.latest.default.override {
               extensions = [ "rust-src" "llvm-tools-preview" ];
               targets =
