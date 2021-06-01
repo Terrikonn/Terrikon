@@ -17,7 +17,6 @@
           buildInputs = with pkgs; [
             openssl
             pkgconfig
-            sccache
             qemu
             qemu-utils
             gdb
@@ -26,14 +25,12 @@
             (rust-bin.nightly.latest.default.override {
               extensions =
                 [ "rust-src" "rustfmt" "clippy" "llvm-tools-preview" ];
-              targets =
-                [ "x86_64-unknown-linux-gnu" "riscv64gc-unknown-none-elf" ];
+              #targets = [ "riscv64gc-unknown-none-elf" ];
             })
           ];
 
           shellHook = ''
             alias cx="cargo xtask"
-            export RUSTC_WRAPPER="sccache"
           '';
         };
       });
