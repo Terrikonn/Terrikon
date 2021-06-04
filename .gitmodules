@@ -20,3 +20,6 @@
 [submodule "bootloader"]
 	path = bootloader
 	url = git@github.com:Terrikonn/bootloader.git
+[submodule "logist"]
+	path = logist
+	url = git@github.com:Terrikonn/logist.git
