@@ -22,6 +22,7 @@
             gdb
             edk2
             OVMF
+            just
             (rust-bin.nightly.latest.default.override {
               extensions =
                 [ "rust-src" "rustfmt" "clippy" "llvm-tools-preview" ];
