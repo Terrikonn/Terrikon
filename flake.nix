@@ -26,13 +26,8 @@
             (rust-bin.nightly.latest.default.override {
               extensions =
                 [ "rust-src" "rustfmt" "clippy" "llvm-tools-preview" ];
-              #targets = [ "riscv64gc-unknown-none-elf" ];
             })
           ];
-
-          shellHook = ''
-            alias cx="cargo xtask"
-          '';
         };
       });
 }
