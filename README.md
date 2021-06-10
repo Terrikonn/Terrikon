@@ -1,1 +1,2 @@
-# romlin
+# Clonning
+Clone with command `git clone https://github.com/Terrikonn/Terrikon.git --recursive`
