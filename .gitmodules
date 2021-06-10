@@ -23,3 +23,6 @@
 [submodule "logist"]
 	path = logist
 	url = git@github.com:Terrikonn/logist.git
+[submodule "bitte"]
+	path = bitte
+	url = git@github.com:Terrikonn/bitte.git
