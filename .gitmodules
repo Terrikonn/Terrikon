@@ -26,3 +26,6 @@
 [submodule "bitte"]
 	path = bitte
 	url = git@github.com:Terrikonn/bitte.git
+[submodule "hal"]
+	path = hal
+	url = git@github.com:Terrikonn/hal.git
